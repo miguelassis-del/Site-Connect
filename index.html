@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#050d32">
+    <meta name="description"
+        content="Connect em Heliópolis: iPhones, Androids, acessórios e assistência técnica. Consulte aparelhos e solicite seu orçamento.">
+    <meta property="og:title" content="Connect | Sua vida conectada">
+    <meta property="og:description" content="Celulares, acessórios e assistência técnica em Heliópolis, São Paulo.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <title>Connect | Celulares e assistência em Heliópolis</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip" href="#main">Pular para o conteúdo</a>
+    <div class="topbar"> SÃO PAULO - SP<span>CELULARES · ASSISTÊNCIA · ACESSÓRIOS</span></div>
+    <header class="header">
+        <div class="wrap nav"><a href="#inicio" aria-label="Connect, início"><img class="logo"
+                    src="assets/logo-connect.jpg" width="231" height="66"
+                    alt="Connect assistência técnica e acessórios"></a><button class="menu-toggle" hidden
+                aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+            <nav id="navigation" aria-label="Navegação principal"><a href="#aparelhos">Aparelhos</a><a
+                    href="#assistencia">Assistência</a><a href="#acessorios">Acessórios</a><a href="#loja">A loja</a><a
+                    class="button small" href="#orcamento">Pedir orçamento <span aria-hidden="true">↗</span></a></nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="hero wrap" id="inicio">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="dash"></span> TECNOLOGIA PERTO DE VOCÊ</p>
+                <h1>Sua vida.<br>Mais <em>conectada.</em></h1>
+                <p class="lead">Seu próximo celular e o cuidado que o seu aparelho precisa. iPhones, Androids e
+                    assistência técnica em um só lugar.</p>
+                <div class="actions"><a class="button" href="#aparelhos">Encontrar meu celular <span
+                            aria-hidden="true">↗</span></a><a class="text-link" href="#assistencia">Preciso de um reparo
+                        <span aria-hidden="true">→</span></a></div>
+                <div class="hero-note"><span class="mini-circle" aria-hidden="true">C</span>
+                    <p><strong>Connect, em Heliópolis.</strong><br>Uma loja para acompanhar sua rotina.</p>
+                </div>
+            </div>
+            <div class="hero-art">
+                <div class="art-label">ESCOLHA. CONECTE. SIGA.</div><img src="assets/phones.svg"
+                    alt="Ilustração de dois smartphones, sem representar modelo específico" width="640" height="640">
+                <div class="art-caption"><span>iOS & ANDROID</span><span>Seu próximo passo ↗</span></div>
+            </div>
+        </section>
+        <div class="ribbon">
+            <div class="wrap"><span>iPhones & Androids</span><span class="dot"></span><span>Assistência
+                    técnica</span><span class="dot"></span><span>Acessórios para o dia a dia</span></div>
+        </div>
+        <section class="section wrap" id="aparelhos">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">01 / SEU PRÓXIMO CELULAR</p>
+                    <h2>Uma escolha que<br>combina com você.</h2>
+                </div>
+                <p>Conte o que você procura. A Connect informa as opções disponíveis e ajuda você a escolher.</p>
+            </div>
+            <div class="filters" role="group" aria-label="Filtrar categorias"><button data-filter="all"
+                    aria-pressed="true">Todos</button><button data-filter="ios"
+                    aria-pressed="false">iPhones</button><button data-filter="android"
+                    aria-pressed="false">Androids</button></div>
+            <p id="filter-status" class="sr-only" aria-live="polite"></p>
+            <div class="products">
+                <article class="product" data-category="ios">
+                    <div class="product-visual iphone" aria-hidden="true">
+                        <div class="device">
+                            <div class="island"></div><span>Olá.</span>
+                        </div><span class="visual-label">iOS</span>
+                    </div>
+                    <div class="product-content">
+                        <p class="eyebrow">ECOSSISTEMA APPLE</p>
+                        <h3>Encontre seu iPhone.</h3>
+                        <p>Consulte modelos, capacidades, cores e condições de compra com a nossa equipe.</p><a
+                            class="text-link"
+                            data-whatsapp="Olá, Connect! Quero consultar as opções de iPhone disponíveis."
+                            href="https://wa.me/5511949271471?text=Ol%C3%A1%2C%20Connect%21%20Quero%20consultar%20iPhones.">Consultar
+                            iPhones <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="product" data-category="android">
+                    <div class="product-visual android" aria-hidden="true">
+                        <div class="device">
+                            <div class="camera"></div><span>Seu<br>ritmo.</span>
+                        </div><span class="visual-label">ANDROID</span>
+                    </div>
+                    <div class="product-content">
+                        <p class="eyebrow">VERSATILIDADE NO DIA A DIA</p>
+                        <h3>Um Android para você.</h3>
+                        <p>Fale sobre sua rotina e seu orçamento para consultar as opções da loja.</p><a
+                            class="text-link"
+                            data-whatsapp="Olá, Connect! Quero consultar as opções de celulares Android disponíveis."
+                            href="https://wa.me/5511949271471?text=Ol%C3%A1%2C%20Connect%21%20Quero%20consultar%20Androids.">Consultar
+                            Androids <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+            </div>
+            <p class="note">Imagens ilustrativas. Modelos, preços e disponibilidade sob consulta.</p>
+        </section>
+        <section class="service-section" id="assistencia">
+            <div class="wrap service-grid">
+                <div>
+                    <p class="eyebrow">02 / ASSISTÊNCIA TÉCNICA</p>
+                    <h2>Seu celular<br>merece <em>cuidado.</em></h2>
+                    <p class="lead">Tela quebrada? Bateria que não acompanha o dia? Conte o que aconteceu e solicite uma
+                        avaliação.</p>
+                    <div class="warranty"><strong>90</strong>
+                        <div><b>dias de garantia</b>
+                            <p>Garantia divulgada pela loja.<br>Consulte as condições do seu serviço.</p>
+                        </div>
+                    </div><a class="button" href="#orcamento">Solicitar avaliação <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="service-list">
+                    <article><span>01</span>
+                        <div>
+                            <h3>Troca de tela</h3>
+                            <p>Para telas quebradas e problemas de imagem ou toque. Orçamento após avaliação.</p>
+                        </div>
+                    </article>
+                    <article><span>02</span>
+                        <div>
+                            <h3>Troca de bateria</h3>
+                            <p>Seu aparelho descarrega rápido? Consulte a avaliação da bateria e as opções de troca.</p>
+                        </div>
+                    </article>
+                    <article><span>03</span>
+                        <div>
+                            <h3>Outros reparos</h3>
+                            <p>Explique o defeito do seu iPhone ou Android para verificar as possibilidades de
+                                atendimento.</p>
+                        </div>
+                    </article>
+                    <p class="service-foot">Primeiro, o orçamento. Depois, sua decisão.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section wrap accessories" id="acessorios">
+            <div>
+                <p class="eyebrow">03 / ACESSÓRIOS</p>
+                <h2>Os detalhes<br>fazem a conexão.</h2>
+                <p>Proteção, energia e som para acompanhar você. Consulte a compatibilidade com seu aparelho.</p><a
+                    class="text-link" data-whatsapp="Olá, Connect! Quero consultar acessórios para meu celular."
+                    href="https://wa.me/5511949271471?text=Ol%C3%A1%21%20Quero%20consultar%20acess%C3%B3rios.">Ver
+                    opções com a loja <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="accessory-list">
+                <div><span>01</span>
+                    <h3>Capinhas</h3>
+                    <p>Proteção com seu estilo.</p>
+                </div>
+                <div><span>02</span>
+                    <h3>Cabos & carregadores</h3>
+                    <p>Energia para a sua rotina.</p>
+                </div>
+                <div><span>03</span>
+                    <h3>Fones de ouvido</h3>
+                    <p>Suas músicas, por perto.</p>
+                </div>
+            </div>
+        </section>
+        <section class="quote-section" id="orcamento">
+            <div class="wrap quote-grid">
+                <div>
+                    <p class="eyebrow">VAMOS CONVERSAR</p>
+                    <h2>Como podemos<br>ajudar você?</h2>
+                    <p>Preencha seu pedido e continue a conversa no WhatsApp da Connect.</p>
+                    <p class="note">O formulário prepara a mensagem. O envio é feito por você no WhatsApp; nenhum dado é
+                        armazenado neste site.</p>
+                </div>
+                <form id="quote-form" novalidate>
+                    <div class="field"><label for="name">Seu nome</label><input id="name" name="name"
+                            autocomplete="given-name" required maxlength="80" placeholder="Como podemos chamar você?"
+                            aria-describedby="name-error"><small class="error" id="name-error"></small></div>
+                    <div class="field-row">
+                        <div class="field"><label for="interest">O que você procura?</label><select id="interest"
+                                name="interest">
+                                <option>Assistência técnica</option>
+                                <option>Comprar iPhone</option>
+                                <option>Comprar Android</option>
+                                <option>Acessórios</option>
+                            </select></div>
+                        <div class="field"><label for="model">Modelo do celular <span>(opcional)</span></label><input
+                                id="model" name="model" maxlength="100" placeholder="Ex.: iPhone 13"></div>
+                    </div>
+                    <div class="field"><label for="message">Conte o que precisa</label><textarea id="message"
+                            name="message" required maxlength="1000" rows="3"
+                            placeholder="Descreva o defeito ou o aparelho que procura."
+                            aria-describedby="message-error"></textarea><small class="error" id="message-error"></small>
+                    </div><button class="button" type="submit">Continuar no WhatsApp <span
+                            aria-hidden="true">↗</span></button>
+                    <p class="form-status" id="form-status" aria-live="polite"></p><noscript>
+                        <p>Para solicitar seu orçamento, <a href="https://wa.me/5511949271471">fale diretamente no
+                                WhatsApp</a>.</p>
+                    </noscript>
+                </form>
+            </div>
+        </section>
+        <section class="section wrap store" id="loja">
+            <div>
+                <p class="eyebrow">04 / NOSSA LOJA</p>
+                <h2>Daqui do bairro.<br>Para o seu dia.</h2>
+                <p>Visite a Connect em Heliópolis, na Zona Sul de São Paulo.</p>
+                <address>Rua Barão do Rio Prata, 166 · Box 4<br>Heliópolis · São Paulo, SP</address>
+                <div class="actions"><a class="button outline"
+                        href="https://www.google.com/maps/search/?api=1&query=Rua%20Bar%C3%A3o%20do%20Rio%20Prata%20166%20Heli%C3%B3polis%20S%C3%A3o%20Paulo"
+                        target="_blank" rel="noopener noreferrer">Traçar rota <span aria-hidden="true">↗</span></a><a
+                        class="text-link" href="https://www.instagram.com/connect_conserto/" target="_blank"
+                        rel="noopener noreferrer">Instagram ↗</a></div>
+            </div>
+            <div class="store-panel"><span class="eyebrow">CONNECT</span>
+                <p>Seu aparelho.<br>Em boas mãos.</p>
+                <div><span>Converse com a equipe</span><a href="https://wa.me/5511949271471"
+                        data-whatsapp="Olá, Connect! Gostaria de confirmar os horários de atendimento.">(11) 94927-1471
+                        ↗</a><small>Consulte os horários antes da visita.</small></div>
+            </div>
+        </section>
+        <section class="wrap faq">
+            <p class="eyebrow">DÚVIDAS FREQUENTES</p>
+            <h2>Antes de conectar.</h2>
+            <details>
+                <summary>Como consultar os aparelhos disponíveis?</summary>
+                <p>Use os botões de iPhone ou Android para conversar com a loja. A equipe confirma modelos, preços e
+                    condições de compra.</p>
+            </details>
+            <details>
+                <summary>Quanto custa consertar meu celular?</summary>
+                <p>O valor depende do modelo e do problema. Descreva seu caso pelo formulário e solicite uma avaliação à
+                    Connect.</p>
+            </details>
+            <details>
+                <summary>O serviço tem garantia?</summary>
+                <p>A Connect divulga garantia de 90 dias. Confirme com a equipe as condições e a cobertura aplicáveis ao
+                    seu serviço.</p>
+            </details>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap footer-row"><img src="assets/logo-connect.jpg" width="231" height="66" alt="Connect">
+            <p>Celulares, assistência e acessórios.<br>Heliópolis, São Paulo.</p><a href="#inicio">Voltar ao início
+                ↑</a>
+        </div>
+        <div class="wrap footer-bottom"><span>© <span id="year">2026</span> Connect. Todos os direitos
+                reservados.</span><span>Sua vida. Mais conectada.</span></div>
+    </footer><a class="floating" href="https://wa.me/5511949271471"
+        data-whatsapp="Olá, Connect! Gostaria de atendimento." aria-label="Conversar com a Connect no WhatsApp">WhatsApp
+        ↗</a>
+</body>
+
+</html>
